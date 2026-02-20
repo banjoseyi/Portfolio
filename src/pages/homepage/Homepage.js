@@ -92,7 +92,7 @@ export default function Homepage() {
                     </div>
                     <div className="about-buttons">
                         <a
-                            href="/cv/banjo-oluwaseyifunmi-cv.pdf"
+                            href="/cv/BANJO-OLUWASEYIFUNMI-OLUWATUNMISE-CV.pdf"
                             download
                             className="about-btn holographic-btn"
                         >
