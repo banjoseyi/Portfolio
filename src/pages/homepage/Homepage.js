@@ -56,8 +56,16 @@ export default function Homepage() {
                 <div className="about-content">
                     <h2>ABOUT ME</h2>
                     <div className="img-text">
-                        <img src="/img/coder.gif" alt="coder.gif" />
-                        <div className="aboutMe-text">
+                        <motion.img src="/img/coder.gif" alt="coder.gif"
+                            initial={{ opacity: 0, translateX: "-100%" }}
+                            whileInView={{ opacity: 1, translateX: 0 }}
+                            transition={{ delay: 0.25, duration: 0.35, type: 'tween' }}
+                        />
+                        <motion.div className="aboutMe-text"
+                            initial={{ opacity: 0, translateX: "-100%" }}
+                            whileInView={{ opacity: 1, translateX: 0 }}
+                            transition={{ delay: 0.25, duration: 0.35, type: 'tween' }}
+                        >
                             <p>
                                 <span>H</span>ello! I'm Oluwaseyifunmi, a Front-End web Developer based in Igando,Lagos State.
                             </p>
@@ -80,7 +88,7 @@ export default function Homepage() {
                             <p>
                                 I look forward to working with you.
                             </p>
-                        </div>
+                        </motion.div>
                     </div>
                     <div className="about-buttons">
                         <a

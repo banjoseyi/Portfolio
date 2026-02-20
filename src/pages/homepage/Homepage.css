@@ -1,7 +1,7 @@
 * {
   font-family: "Plus Jakarta Sans", sans-serif;
   scroll-behavior: smooth;
-  /* border: 2px solid red; */
+  /* border: 2px solid red;  */
 }
 
 
@@ -71,8 +71,8 @@
 
 .hero h1 span {
   color: #fff;
-  font-size: 2rem;
-  padding: 0 8px 0px 0px;
+  font-size: 1.25rem;
+  padding: 0 8px 0 0;
 }
 
 /* Subtitle */
@@ -207,7 +207,7 @@
   position: absolute;
   top: 3%;
   left: 0;
-  font-size: 9rem;
+  font-size: 8.5rem;
   color: #06B6D4;
   width: 100%;
   text-align: center;
@@ -519,10 +519,10 @@
   display: inline-block;
   padding: 10px 20px;
   text-decoration: none;
-  color: #0ff;
+  color: #fff;
   border: 1px solid rgba(0, 255, 255, 0.3);
   border-radius: 5px;
-  background: rgba(0, 0, 0, 0.5);
+  background: #155E75;
 }
 
 /* For the social media icons */
@@ -567,7 +567,7 @@
 
   /* hero */
   .hero {
-    padding: 20px 15%;
+    padding: 20px 5%;
   }
 
   .hero-buttons {
@@ -585,10 +585,11 @@
     align-items: center;
   }
 
-  .about-content .img-text img{
+  .about-content .img-text img {
     max-width: 100%;
     margin-bottom: 50px;
   }
+
   .about-content .img-text .aboutMe-text {
     max-width: 500px;
     margin-bottom: 50px;
@@ -677,6 +678,17 @@
 
 
 @media (max-width: 600px) {
+  .hero .welcome-msg {
+  font-size: 1.5rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+}
+
+.hero h1 span {
+  font-size: 1.25rem;
+}
   .contact {
     padding: 4rem 1.5rem 2rem;
   }

@@ -2,73 +2,47 @@
     "projects": [
         {
             "id": "1",
-            "projectName": "Movie App",
-            "img": "/img/bible.png",
+            "img": "/img/Password-Generator.png",
+            "languages": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "description": "A lightweight password generator focused on security, speed, and ease of use.",
+            "projectName": "Password Generator",
+            "projectLink": "https://password-generator-seyi.vercel.app/"
+        },
+        {
+            "id": "2",
+            "img": "/img/Landing-Page.png",
+            "languages": [
+                "Tailwind"
+            ],
+            "description": "My first Tailwind CSS project, created to experiment with layouts, styling, and responsive design concepts.",
+            "projectName": "Loading Page Template",
+            "projectLink": "https://seyi-fire-service.vercel.app/"
+        },
+        {
+            "id": "3",
+            "projectName": "Youtube Clone",
+            "img": "/img/Youtube-Clone.png",
             "languages": [
                 "React",
                 "Tailwind"
             ],
-            "description": "Tech blog and resource platform featuring articles, tutorials, and tools for developers. Clean UI with responsive design.",
-            "projectLink": "https://movieapp-seyi.vercel.app/"
-        },
-        {
-            "id": "2",
-            "img": "/img/bookmark.png",
-            "languages": [
-                "React",
-                "Tailwind",
-                "Firebase"
-            ],
-            "description": "My interactive portfolio showcasing projects, skills, and a bit of personality. Animated transitions and modern dark theme.",
-            "projectName": "Loading Page Template",
-            "projectLink": "https://movieapp-seyi.vercel.app/"
-        },
-        {
-            "id": "3",
-            "img": "/img/gmgtech.png",
-            "languages": [
-                "React",
-                "Tailwind",
-                "Firebase"
-            ],
-            "description": "Creative pre-loader and splash screen templates with smooth animations. Used as a starting point for many fast-loading sites.",
-            "projectName": "Loading Page Template",
-            "projectLink": "https://movieapp-seyi.vercel.app/"
+            "description": "A YouTube-inspired web app showcasing responsive design, dynamic layouts, and modern frontend development practices.",
+            "projectLink": "https://banjo-youtube-clone.netlify.app/"
         },
         {
             "id": "4",
-            "img": "/img/bible.png",
+            "img": "/img/Movie-App.png",
             "languages": [
-                "React",
-                "Tailwind",
-                "Firebase"
+                "HTML",
+                "CSS",
+                "JavaScript"
             ],
-            "description": "A modern movie discovery app that lets users search, save favorites, and watch trailers. Built with React and real-time data from TMDB API.",
-            "projectName": "Loading Page Template",
-            "projectLink": "https://movieapp-seyi.vercel.app/"
-        },
-        {
-            "id": "5",
-            "img": "/img/gmgtech.png",
-            "languages": [
-                "React",
-                "Tailwind",
-                "Firebase"
-            ],
-            "description": "Creative pre-loader and splash screen templates with smooth animations. Used as a starting point for many fast-loading sites.",
-            "projectName": "Github Finder",
-            "projectLink": "https://movieapp-seyi.vercel.app/"
-        },
-        {
-            "id": "6",
-            "img": "/img/bookmark.png",
-            "languages": [
-                "React",
-                "Tailwind",
-                "Firebase"
-            ],
-            "description": "A modern movie discovery app that lets users search, save favorites, and watch trailers. Built with React and real-time data from TMDB API.",
-            "projectName": "Online Bible",
+            "description": "A movie app project centered on logic, structure, and clean UI implementation",
+            "projectName": "Movie App",
             "projectLink": "https://movieapp-seyi.vercel.app/"
         }
     ]
