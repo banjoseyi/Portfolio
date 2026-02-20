@@ -2,7 +2,7 @@ import PortfolioGrid from "../../components/PortfolioGrid";
 import { useFetch } from "../../Hooks/useFetch";
 
 export default function Portfolio() {
-  const { data, isPending, error } = useFetch("http://localhost:3000/projects");
+    const { data, isPending, error } = useFetch('/data/db.json');
 
   return (
     <section className="portfolio">
@@ -17,7 +17,7 @@ export default function Portfolio() {
         {isPending && <p className="loading-message">Loading...</p>}
 
         {/* IMPORTANT PART */}
-        {data && <PortfolioGrid projects={data} />}
+        {data && <PortfolioGrid projects={data.projects} />}
       </div>
     </section>
   );
