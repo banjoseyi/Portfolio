@@ -17,7 +17,7 @@ const greetings = [
 
 export default function Homepage() {
     const typedText = useTypewriter(greetings, 100, 60, 1800);
-    const { data, isPending, error } = useFetch('http://localhost:3000/projects');
+    const { data, isPending, error } = useFetch('/data/db.json');
 
     return (
         <div className="container">
@@ -114,7 +114,7 @@ export default function Homepage() {
                     {error && <p className="error-message">{error}</p>}
                     {isPending && <p className="loading-message">Loading...</p>}
 
-                    {data && <PortfolioGrid projects={data} limit={4} />}
+                    {data && <PortfolioGrid projects={data.projects} limit={4} />}
 
                     <motion.div className="see-more"
                         initial={{ opacity: 0, translateY: "50%" }}
