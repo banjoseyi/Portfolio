@@ -24,13 +24,13 @@
         },
         {
             "id": "3",
-            "projectName": "Youtube Clone",
             "img": "/img/Youtube-Clone.png",
             "languages": [
                 "React",
                 "Tailwind"
             ],
             "description": "A YouTube-inspired web app showcasing responsive design, dynamic layouts, and modern frontend development practices.",
+            "projectName": "YouTube Clone",
             "projectLink": "https://banjo-youtube-clone.netlify.app/"
         },
         {

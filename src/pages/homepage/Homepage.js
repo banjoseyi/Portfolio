@@ -67,26 +67,26 @@ export default function Homepage() {
                             transition={{ delay: 0.25, duration: 0.35, type: 'tween' }}
                         >
                             <p>
-                                <span>H</span>ello! I'm Oluwaseyifunmi, a Front-End web Developer based in Igando,Lagos State.
+                                <span>H</span>ello! I'm Oluwaseyifunmi, a Front-End Web Developer based in Lagos, Nigeria.
                             </p>
 
                             <p>
-                                My interest in web development was borne out of the fact that I've always had a knack for design right from my younger years.
-                                The drawings and the little designs I made younger unlocked the creative side of me. I am a very creative and passionate developer
-                                with a keen eye for details, without leaving out the aesthetic part.
+                                My interest in web development was stemmed from the fact that I've always had a knack for design right from my younger days.
+                                The drawings and little designs I made when I was younger awakened the creative side of me. I am a very creative and passionate developer
+                                with a keen eye for details, while still paying attention to aesthetic.
                             </p>
 
                             <p>
-                                I am a Mass Communication graduate and that has made me knowledgeable in the art and science of appealing to a heterogeneous set
+                                I am a Computer Science graduate and that has made me knowledgeable in the art and science of appealing to a heterogeneous set
                                 of people which will always come in handy as a web developer.
                             </p>
 
                             <p>
-                                My areas of proficiency are <strong>HTML5, CSS3, JavaScript, GitHub, Tailwind CSS, React.js</strong>.
+                                My areas of proficiency are <strong>HTML5, CSS3, JavaScript, Tailwind CSS, React.js</strong>.
                             </p>
 
                             <p>
-                                I look forward to working with you.
+                                I’d love to collaborate with you.
                             </p>
                         </motion.div>
                     </div>
@@ -152,7 +152,7 @@ export default function Homepage() {
 
                             <div className="contact-item">
                                 <span className="contact-icon">✉️</span>
-                                <p className="contact-text">Bajoseyi2@gmail.com</p>
+                                <p className="contact-text">Banjoseyi2@gmail.com</p>
                             </div>
                         </motion.div>
                         <motion.div className="contact-right"
